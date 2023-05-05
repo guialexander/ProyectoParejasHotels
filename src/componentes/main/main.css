@@ -1,0 +1,131 @@
+
+
+.main__Tabla{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(241, 235, 235, 0.539);
+main{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+    height: 72vh; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+.main__Tabla{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+
+    width: 70%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+
+.Tabla__ProcdutsHoteles{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    font-size: 2em;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+}
+.Tabla__ProcdutsHoteles--btnadd{
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+       background: #1c50dd;
+    text-decoration: none;
+
+    width: 10%;
+    }
+
+
+.Tabla__ProcdutsHoteles--btnadd:hover{
+    background-color: rgb(21, 214, 228);
+border: 5px blue solid ;
+color: white;
+font-size: 30px;
+cursor: pointer;
+
+footer{
+    background-color: #1d3557;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+
+
+footer{
+    background-color: #1d3557;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+
+}
+.contact-card{
+   
+}
+
+.Tabla__ProcdutsHoteles-tabla{
+    width: 98%;
+    padding: 0.3em;
+    overflow-y:scroll;
+}
+
+table {
+    width: 100%;
+    padding: 0.3em;
+    border: 1px solid blue;
+   
+
+ }
+ th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: center;
+    border: 0.5px solid black;
+
+ }
+ .hotels-list--btnh{
+    -webkit-border-radius: 4;
+     -moz-border-radius: 4;
+     border-radius: 4px;
+     text-shadow: 1px 1px 15px #666666;
+     font-family: Arial;
+     color: #ffffff;
+     font-size: 1em;
+        background: #1c50dd;
+     border: solid #000000 1px;
+     text-decoration: none;
+     
+ }
+  
+ 
+  .hotels-list--imgen{
+    width: 40%;
+    height: 10vh;
+  }
+  .hotels-list--btnh:hover{
+    background-color: rgb(21, 214, 228);
+    border: 5px blue solid ;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+
