@@ -37,7 +37,7 @@ export const Formulario = ({ onAddHotel }) => {
         },
         body: JSON.stringify(HotelsList),
       }
-      const url = 'http://localhost:3001/api/hotels'
+      const url = 'https://miprimeraapiexpress.onrender.com/api/hotels'
 
       const response = await fetch(url, options)
       const data = await response.json()
@@ -93,7 +93,6 @@ export const Formulario = ({ onAddHotel }) => {
               type="text"
               name="phone"
               placeholder='Enter phone'
-              placeholder='Ingresa el telefono'
               className="contact-form__input"
               onChange={handleChange}
               required
@@ -109,7 +108,7 @@ export const Formulario = ({ onAddHotel }) => {
               className="contact-form__input"
              placeholder='https://picsum.photos/200'
               onChange={handleChange}
-              placeholder='Link imagen del Hotel'
+              
 
               />
           </div>

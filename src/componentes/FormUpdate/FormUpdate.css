@@ -7,6 +7,12 @@
     margin: 0 auto;
     height:72vh;
   }
+  .edit--hotel{
+    padding: 10px;
+    flex-direction: center;
+    text-align: center;
+    width: 30%;
+  }
   
   .contact-formUP__column {
     display: flex;

@@ -44,8 +44,9 @@ const handleSubmit = async(event) => {
   return (
     <>
     
-    <h1 >Edit{Hotel.id}</h1>
+    
      <form className="main__contact-formUP" onSubmit={handleSubmit} >
+     <h1 className='edit--hotel' >Edit</h1>
    
         <div>
           <div className="contact-formUP__column">

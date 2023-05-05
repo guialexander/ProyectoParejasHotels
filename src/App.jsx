@@ -6,6 +6,8 @@ import Footer1 from './componentes/Footer/Footer1'
 import FormUpdate from './componentes/FormUpdate/FormUpdate';
 import { hotels as HotelsList2 } from './assets/data';
 
+
+
 import './App.css'
 
 
@@ -43,7 +45,8 @@ const onaddstado =(Hotel)=>{
 }
   useEffect(()=>{
     const fetchHotels=async()=>{
-      const url=`${import.meta.env.VITE_BASE_URL}api/hotels`
+      const url=`https://miprimeraapiexpress.onrender.com/api/hotels`
+      console.log(url)
 
       try {
         const response = await fetch(url)

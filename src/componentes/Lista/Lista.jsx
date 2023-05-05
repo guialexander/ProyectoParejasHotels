@@ -13,7 +13,7 @@ const Lista = ({Hotel,onEditStado}) => {
 
   }
   const handleDelete = async() => {
-    const url = `http://localhost:3001/api/hotels/${Hotel.id}`
+    const url = `https://miprimeraapiexpress.onrender.com/api/hotels/${Hotel.id}`
     const config = {
       method: 'DELETE',
     }

@@ -1,12 +1,11 @@
 .main__contact-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 30%;
-    margin: 5px;
-    height:50%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ width: 30%;
+  margin: 0 auto;
+  height:72vh;
   }
   
   .contact-form__column {

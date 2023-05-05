@@ -1,6 +1,6 @@
 import React from 'react'
 import './main.css'
-import Formulario from '../Formulario/Formulario'
+
 import Lista from '../Lista/Lista'
 
 export const Main = ({HotelsList=[], onAddStado}) => {
@@ -23,16 +23,16 @@ export const Main = ({HotelsList=[], onAddStado}) => {
     
     <div className='main__Tabla'> 
      <div className='Tabla__ProcdutsHoteles'>
-        <h2>Productos lista</h2>
+        <h2>Hotels</h2>
        <button onClick={handleADD} className='Tabla__ProcdutsHoteles--btnadd'>add</button>
-        <h2>Hoteles</h2>
-        <button className='Tabla__ProcdutsHoteles--btnadd'>Agregar</button>
+       
+       
 
      
      </div>
    
     <div className='Tabla__ProcdutsHoteles-tabla'>
-      <table >
+      <table>
            
             <tr>
                 <th><h2> Hotel</h2></th>

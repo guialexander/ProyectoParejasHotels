@@ -12,7 +12,8 @@ header{
     display: flex;
     justify-content: space-around;
 }
-.img{
-    width: 20px;
-    height: 20px;
-}
+.contenedor__titulo--imgen{
+    width: 10%;
+    height: 5vh;
+  }
+  
