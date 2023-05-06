@@ -37,7 +37,7 @@ export const Formulario = ({ onAddHotel }) => {
         },
         body: JSON.stringify(HotelsList),
       }
-      const url = 'https://miprimeraapiexpress.onrender.com/api/hotels'
+      const url = `${import.meta.env.VITE_BASE_URL}/api/hotels`
 
       const response = await fetch(url, options)
       const data = await response.json()

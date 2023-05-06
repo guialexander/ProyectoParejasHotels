@@ -1,5 +1,5 @@
 import React from 'react'
-import './main.css'
+import './cuerpo.css'
 
 import Lista from '../Lista/Lista'
 
@@ -32,7 +32,8 @@ export const Main = ({HotelsList=[], onAddStado}) => {
      </div>
    
     <div className='Tabla__ProcdutsHoteles-tabla'>
-      <table>
+      <table >
+      <thead>
            
             <tr>
                 <th><h2> Hotel</h2></th>
@@ -41,6 +42,8 @@ export const Main = ({HotelsList=[], onAddStado}) => {
                 <th><h2> Photo</h2></th>
                 <th></th>
             </tr>
+            </thead>   
+       <tbody>
             
             {HotelsList.map((Hotel)=>(
              <tr>
@@ -53,6 +56,7 @@ export const Main = ({HotelsList=[], onAddStado}) => {
              </tr>
             
              ))}
+        </tbody>     
                  
         </table>
         </div>    

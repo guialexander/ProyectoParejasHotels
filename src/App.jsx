@@ -1,6 +1,6 @@
 import { useEffect, useReducer, useState } from 'react'
 import Cabecera from './componentes/cabecera/cabecera'
-import Main from './componentes/Main/main'
+import Cuerpo from './componentes/cuerpo/Cuerpo'
 import Formulario from './componentes/Formulario/Formulario';
 import Footer1 from './componentes/Footer/Footer1'
 import FormUpdate from './componentes/FormUpdate/FormUpdate';
@@ -45,7 +45,7 @@ const onaddstado =(Hotel)=>{
 }
   useEffect(()=>{
     const fetchHotels=async()=>{
-      const url=`https://miprimeraapiexpress.onrender.com/api/hotels`
+      const url=`${import.meta.env.VITE_BASE_URL}/api/hotels`
       console.log(url)
 
       try {
@@ -63,7 +63,7 @@ const onaddstado =(Hotel)=>{
     <>
     <Cabecera/>
    <main>    
-    <Main
+    <Cuerpo
     HotelsList= {HotelsList} 
     onAddStado={onaddstado} />
     {

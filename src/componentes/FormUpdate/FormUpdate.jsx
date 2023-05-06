@@ -19,7 +19,7 @@ const handleSubmit = async(event) => {
 
     event.preventDefault();
     console.log(Hotel.id)
-    const url = `http://localhost:3001/api/hotels/${Hotel.id}`
+    const url = `${import.meta.env.VITE_BASE_URL}/api/hotels/${Hotel.id}`
     const config = {
       method: 'PATCH',
       headers: {
